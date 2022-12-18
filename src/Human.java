@@ -3,6 +3,12 @@ public class Human {
     String name;
     String town;
     String jobTitle;
+    Human(int yearOfBirth, String name, String town, String jobTitle){
+        this.yearOfBirth = yearOfBirth;
+        this.name = name;
+        this.town = town;
+        this.jobTitle = jobTitle;
+    }
 
 
     void printHuman(){
